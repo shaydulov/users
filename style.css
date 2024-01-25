@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header{
+    padding-top: 30px;
+    display: flex;
+    width: 1440px;
+    margin: 0 auto;
+    gap: 10px;
+}
+
+.first, .second, .third{
+    border: 1px solid red;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card{
+    border: 1px solid red;
+    width: 100%;
+    padding: 20px;
+}
+
+
+h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+button{
+    font-size: 14px;
+    padding: 4px 8px;
+    border-radius: 4px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+}
+
+img{
+    width: 30%;
+}
+
+.third{
+    flex-direction: row;
+    flex-wrap: wrap;
+}
